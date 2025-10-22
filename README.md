@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+  <h1><center>Student Registration</center></h1>  
+  <hr style="height:4px;background-color:#000000;border:#000000;border-radius:5px;">
+  <label for="First Name">First Name:</label><br>
+  <input type="text"name="First Name"required><br> 
+
+  <label for="Middle Name">Middle  Name:</label><br>
+  <input type="text"name="Middle  Name"required><br>
+
+  <label for="Last Name">Last Name:</label><br>
+  <input type="text"name="Last Name"required><br>
+
+  <label for="Date Of Birth">Date of Birth:</label><br>
+  <input type="date"name="Date Of Birth"required><br>
+
+  <label for="Gender">Gender:</label><br>
+  <select name="Gender"><required><br>
+
+    <option text=>Select Gender</option>
+    <option text="Male">Male</option>
+    <option text="Female">Female</option>
+  </select><br>
+
+  <label for="Contact Number">Contact Number:</label><br>
+  <input type="text"name="Contact Number"required><br>
+
+  <label for="Email">Email:</label><br>
+  <input type="text"name="Email"required><br>
+
+  <label for="Present Address">Present Address:</label><br>
+  <input type="text"name="Present Address"required><br>
+
+  <label for="Student ID">Student ID:</label><br>
+  <input type="text"name="Student ID"required><br>
+
+  <label for="Course/Section">Course/Section:</label><br>
+  <input type="text"name="Course/Section"required><br>
+
+  <label for="Year Level">Year Level:</label><br>
+  <select name="Year Level"name="Year Level"required>
+    <option value=>Select Year Level</option>
+    <option value="1">1st Year</option>
+    <option value="2">2nd Year</option>
+    <option value="3">3rd Year</option>
+    <option value="4">4th Year</option>
+  </select><br>
+
+  <h1>
+    <input type="Submit"
+    style="background-color:#F5F5DC;color:#000000;padding:10px 20px;border:2px solid#000000;border-radius:5px;cursor:pointer;"value="Submit">   
+  </h1>
+  <body style="background:#F5F5DC;"</body>
+
+</body>
+</html>
